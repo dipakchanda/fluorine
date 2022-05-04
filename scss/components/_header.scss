@@ -1,0 +1,111 @@
+/* ----- Main Header ----- */
+#main-header {
+    display: block;
+    padding: 40px 0 10px 0;
+    position: relative;
+    z-index: 99;
+
+    @media (max-width: $break_767) {
+        padding: 20px 0 10px 0;
+    }
+    .left-menu {
+        .logo-div {
+            a {
+                display: inline-block;
+                img {
+                    @media (max-width: $break_767) {
+                        width: auto;
+                        height: 26px;
+                    }
+                }
+            }
+        }
+    }
+    .right-menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        #mm-open {
+            display: none;
+            border: none;
+            background: $no-clr;
+            padding: 0;
+            cursor: pointer;
+            width: 21px;
+            height: 21px;
+            line-height: 1;
+
+            @media (max-width: $break_767) {
+                display: inline-block;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        ul {
+            display: flex;
+
+            @media (max-width: $break_767) {
+                display: none;
+            }
+            li {
+                margin-left: 25px;
+                a {
+                    display: inline-block;
+                    color: $text-clr;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    letter-spacing: 0.2px;
+                    svg {
+                        fill: $text-clr;
+                    }
+                    &:hover {
+                        color: $purple-clr;
+                        text-decoration: underline;
+                        svg {
+                            fill: $purple-clr;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ----- MM Menu ----- */
+#mm-menu {
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    display: none;
+    &.active {
+        display: block;
+    }
+    ul {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        li {
+            margin: 37px 0;
+            text-align: center;
+            a {
+                display: block;
+                font-size: 30px;
+                line-height: 36px;
+                font-weight: 600;
+                color: $white-clr;
+                &:hover {
+                    color: $purple-clr;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'blackheatregular';
+    src: url('blackheat-webfont.woff2') format('woff2'),
+        url('blackheat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blackheatitalic';
+    src: url('blackheat-italic-webfont.woff2') format('woff2'),
+        url('blackheat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'procerusmedium';
+    src: url('procerus-medium-webfont.woff2') format('woff2'),
+        url('procerus-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'referenz_groteskmedium';
+    src: url('referenz-grotesk-medium-webfont.woff2') format('woff2'),
+        url('referenz-grotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

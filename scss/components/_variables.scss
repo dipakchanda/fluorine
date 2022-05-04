@@ -1,0 +1,52 @@
+// Font
+$base-fz: 15px !default;
+$primary-ff: "Inter", sans-serif;
+$ff-blackheat: "blackheatregular";
+$ff-blackheat-italic: "blackheatitalic";
+$ff-procerus: "procerusmedium";
+$ff-referenz: "referenz_groteskmedium";
+
+// Color
+$no-clr: transparent;
+$white-clr: #ffffff;
+$black-clr: #000000;
+$body-bg: #f8f8fb;
+$text-clr: #3d3a3a;
+$blue-clr: #0064fe;
+$blue-bg-clr: #eff5fe;
+$pink-clr: #de3ce3;
+$pink2-clr: #fb77ff;
+$green-clr: #62c554;
+$purple-clr: #7160ed;
+$clr-e3e6e8: #e3e6e8;
+$clr-89909c: #89909c;
+$clr-132239: #132239;
+$clr-acb2ba: #acb2ba;
+$clr-e42222: #e42222;
+$clr-5a6474: #5a6474;
+$clr-ffb000: #ffb000;
+
+// Border
+$border-137: 1px solid rgba($clr-89909c, 0.2);
+
+// Shadow
+$shadow-1: 0px 2px 4px 1px rgba($black-clr, 0.05);
+
+// Media Queries
+$break_1440: 1440px;
+$break_1366: 1366px;
+$break_1280: 1280px;
+$break_1240: 1240px;
+$break_1080: 1080px;
+$break_1024: 1024px;
+$break_991: 991px;
+$break_850: 850px;
+$break_767: 767px;
+$break_768: 768px;
+$break_550: 550px;
+
+//@media (min-width: $break_767 + 1px) and (max-width: $break_1240) {}
+/*
+// --------------------------------
+@media (max-width: $break_550) {}
+*/

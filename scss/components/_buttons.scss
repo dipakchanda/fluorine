@@ -1,0 +1,74 @@
+a,
+button {
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 1em;
+    cursor: pointer;
+    &:focus,
+    &:active,
+    &:hover {
+        outline: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+/* ----- Button ----- */
+.btn {
+    border: 1px solid $no-clr;
+    border-radius: 6px;
+    padding: 10px 23px;
+    font-family: $primary-ff;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 2.4;
+    text-align: center;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+    &:focus,
+    &:active,
+    &:hover {
+        border: 1px solid $no-clr;
+        outline: none;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    &.btn-primary {
+        color: $white-clr;
+        background-color: $blue-clr;
+        border-color: $blue-clr;
+        &:focus,
+        &:active,
+        &:hover {
+            background-color: darken($blue-clr, 10%);
+            border-color: darken($blue-clr, 10%);
+        }
+    }
+    &.btn-default {
+        color: $clr-5a6474;
+        background-color: $white-clr;
+        border-color: $white-clr;
+        &:focus,
+        &:active,
+        &:hover {
+            color: $clr-5a6474;
+            background-color: darken($white-clr, 10%);
+            border-color: darken($white-clr, 10%);
+        }
+    }
+    &.btn-pink {
+        color: $white-clr;
+        background-color: $pink2-clr;
+        border-color: $pink2-clr;
+        &:focus,
+        &:active,
+        &:hover {
+            color: $white-clr;
+            background-color: $purple-clr;
+            border-color: $purple-clr;
+        }
+    }
+}
